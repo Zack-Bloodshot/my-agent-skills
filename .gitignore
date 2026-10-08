@@ -1,0 +1,25 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.#*
+\#*#
+
+# Lock files and render byproducts
+.~lock.*
+*.pdf
+!*/LICENSE*.pdf
+
+# Language / build noise
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Regenerable output
+ppt-style-kit/*.pdf
+ppt-style-kit/slide-*.jpg
+ppt-style-kit/thumbnails*.jpg
+ppt-style-kit/src-thumbs*.jpg
