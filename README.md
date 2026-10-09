@@ -7,6 +7,7 @@ My personal library of agent skills and reusable tooling.
 | Folder | What it is |
 |---|---|
 | [`ppt-style-kit/`](ppt-style-kit/) | **"Deep Indigo" PPT style kit** — a reusable presentation style extracted from my final-year project deck (`ppt final.pptx`). Encodes the palette, Montserrat typography, corner-dot motif and 10 slide-layout components as a `pptxgenjs` module. Ships a `.potx` for working in PowerPoint. |
+| [`permission-preambles/`](permission-preambles/) | **Permission preambles** — a drop-in instruction block that makes an agent describe any approval-gated command in one sentence, with a risk tag, before running it. So you can approve or reject without reading the whole command. |
 
 ### ppt-style-kit at a glance
 
@@ -27,6 +28,9 @@ them in with `K.figure(...)`, which preserves their aspect ratio.
 ```
 my-agent-skills/
 ├── README.md
+├── permission-preambles/
+│   ├── README.md                what it does, how to install, limitations
+│   └── AGENTS.snippet.md        the drop-in instruction block
 └── ppt-style-kit/
     ├── README.md
     ├── theme.js                        style tokens + component helpers
